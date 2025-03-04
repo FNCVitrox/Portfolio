@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: ital, Montserrat, Nunito, sans-serif;
+}
+
+body{
+    background-color: #6b8997;}
+
+/*----------Navigationsbar----------*/
+.navbar {
+    display: flex;
+    justify-content: center;
+    text-transform: none;
+}
+
+#home,#About,#Services,#Portfolio,#content,#lebenslauf{
+    margin: 20px 10px 0px 10px;
+    background-color: rgb(50, 46, 56);
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #C0C0C0 ;
+    border: solid;
+    border-color: white;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+
+}
+
+#home:hover,#About:hover,#Services:hover,#Portfolio:hover,#content:hover,#lebenslauf:hover{
+    background-color: rgb(69, 181, 201);
+    color: black;
+    transform: scale(1.25);
+
+}
+
+
