@@ -45,6 +45,11 @@ body{
     color: #C0C0C0;
 }
 
+#zbw:hover{
+    color: black;
+    transition: 0.5s;
+}
+
 #home-container {
     margin-top: 150px;
     display: flex;
@@ -154,7 +159,7 @@ h1 {
 
 @keyframes fill{
     from{width: 0%;}
-    to{width: 60%;}
+    to{width: 40%;}
 }
 
 #cfüllung{
@@ -166,5 +171,5 @@ h1 {
 
 @keyframes fill2{
     from{width: 0%;}
-    to{width: 40%;}
+    to{width: 20%;}
 }

@@ -117,3 +117,64 @@ legend{
     color: rgb(0, 0, 0);
 
 }
+
+/*SkillTREE*/
+.skillbuttons{
+    background-color: rgb(50, 46, 56);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+
+
+.skilltree{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px 0px;
+
+}
+
+.skilltree-lines {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: -1;
+}
+
+#item1{
+    grid-column: 2 / 3;
+    grid-row: 1;
+}
+
+#item2{
+    grid-column: 1/1;
+    grid-row: 2;
+}
+
+#item3{
+    grid-column: 3/3;
+    grid-row: 2;
+}
+
+#item4{
+    grid-column: 2/2;
+    grid-row: 3;
+}
+
+#item5{
+    grid-column: 1/1;
+    grid-row: 4;
+}
+
+#item6{
+    grid-column: 3/3;
+    grid-row: 4;
+}
+
+
+
+
+
+
