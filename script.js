@@ -1,20 +1,12 @@
 function updateGreeting() {
     let greetingText = document.getElementById("greeting");
-    let hours = new Date().getHours();
   
-    if (hours < 12) {
-        greetingText.innerText = "Guten Morgen! Viel Spass.";
-    } else if (hours < 18) {
-        greetingText.innerText = "Guten Tag! Danke, dass Sie hier sind.";
-    } else {
-        greetingText.innerText = "Guten Abend! Viel Spass beim Stöbern.";
-    }
-
+    greetingText.innerText = "Guten Tag! Viel Spass beim Stöbern.";
+    
     typeWriter();
 }
 
 document.addEventListener("DOMContentLoaded", updateGreeting);
-
 var i = 0;
 var txt = "";
 var speed = 75;
@@ -32,10 +24,8 @@ function typeWriter() {
             setTimeout(writeChar, speed);
         }
     }
-
     writeChar();
 }
-
 
 function createLine(startElementId, endElementId) {
     const start = document.getElementById(startElementId).getBoundingClientRect();
@@ -71,11 +61,12 @@ function createLine(startElementId, endElementId) {
 }
 
 //Verbindungslinien zwischen den richtigen Skills setzen
-createLine("item1", "item2"); // VS Code → HTML/CSS
-createLine("item1", "item3"); // VS Code → C#
-createLine("item2", "item4"); // HTML/CSS → Advanced CSS
-createLine("item4", "item5"); // Advanced CSS → Responsible
-createLine("item4", "item6"); // Advanced CSS → GitHub
+createLine("item1", "item2"); // VS Code → HTML
+createLine("item1", "item3"); // VS Code → CSS
+createLine("item1", "item4"); // VS Code → C#
+createLine("item3", "item5"); // CSS → Advanced CSS
+createLine("item5", "item6"); // Advanced CSS → Responsible
+createLine("item5", "item7"); // Advanced CSS → GitHub
 
 
 
