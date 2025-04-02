@@ -75,8 +75,6 @@ h1 {
     margin-left: 100px;
 }
 
-
-
 #kurzbeschreibung {
     background-color: rgb(50, 46, 56);
     color: #C0C0C0;
@@ -116,7 +114,6 @@ h1 {
 #cmargin{
     margin-left: 60px;
 }
-
 
 .progiconlist{
     opacity: 0;
@@ -159,7 +156,7 @@ h1 {
 
 @keyframes fill{
     from{width: 0%;}
-    to{width: 50%;}
+    to{width: 40%;}
 }
 
 #cfüllung{
